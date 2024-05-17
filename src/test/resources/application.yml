@@ -1,0 +1,17 @@
+spring:
+  sql:
+    init:
+      mode: never
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 445854572331-cjtvvmd5bapl6r7usct4vrtr8hrpsv9u.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+              - email
+              - profile
+jwt:
+  issuer: ajufresh@gmail.com
+  secret_key: study-springboot
